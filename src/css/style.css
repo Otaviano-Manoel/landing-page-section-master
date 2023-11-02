@@ -17,6 +17,8 @@ body{
 /* BACKGROUND */
 .background{
     position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     z-index: -1;
 }
