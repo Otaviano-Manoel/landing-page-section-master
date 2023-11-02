@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](#)
-- Live Site URL: [Live site URL here](#)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/css-grid-and-flex-Xl6GJgU31v)
+- Live Site URL: [Live site URL here](https://otaviano-manoel.github.io/landing-page-section-master/)
 
 ## My process
 
