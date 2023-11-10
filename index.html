@@ -20,40 +20,43 @@
 
 <body>
 
-  <div class="container">
-
-    <picture class="background">
-      <source media="(max-width: 425px)" srcset="./src/images/bg-mobile.svg">
-      <img srcset="./src/images/bg-desktop.svg" alt="Traço com bolinhas">
+  <figure class="background">
+    <picture>
+      <source media="(max-width: 950px)" srcset="./src/images/bg-mobile.svg">
+      <img src="./src/images/bg-desktop.svg" alt="Dois traço, com confeite">
     </picture>
+  </figure>
 
-    <header class="header">
-      <img class="logo" src="./src/images/logo.svg" alt="">
-    </header>
+  <header class="header">
+    <img src="./src/images/logo.svg" alt="Logo da empresa" class="logo">
+  </header>
 
-    <main class="main">
-      <img src="./src/images/illustration-mockups.svg" alt="">
-      <div class="info">
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-          Create connections with your users as you engage in genuine discussion.</p>
-        <button>Register</button>
-      </div>
-    </main>
+  <main class="main">
+    <img src="./src/images/illustration-mockups.svg" alt="" class="mockups">
+    <div class="info">
+      <h1 class="title">Build The Community Your Fans Will Love</h1>
+      <p class="paragraph">Heddle re-imagines the way we build communities. You have a voice, but so does your audience.
+        Create connections with your users as you engage in genuine discussion.</p>
+      <button class="register">Register</button>
+    </div>
+  </main>
 
-    <footer class="footer">
-      <a href="#" aria-label="Facebook">
-        <i class="fa-brands fa-facebook-f"></i>
-      </a>
-      <a href="#" aria-label="Twitter">
-        <i class="fa-brands fa-twitter"></i>
-      </a>
-      <a href="#" aria-label="Instagram">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-    </footer>
-    
-  </div>
+  <footer class="footer">
+    <nav>
+      <ul>
+        <li><a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a></li>
+        <li><a href="#" aria-label="Twitter">
+            <i class="fa-brands fa-twitter"></i>
+          </a></li>
+        <li><a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a></li>
+      </ul>
+    </nav>
+  </footer>
+
 </body>
 
 </html>
